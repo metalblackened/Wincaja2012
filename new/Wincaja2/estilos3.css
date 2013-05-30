@@ -1,0 +1,33 @@
+
+#formulario{
+border:dashed 2px #000000;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+height:400px;
+width:30%;
+margin-left:25px;
+float: left;
+position:absolute;
+}
+
+#formularioAside{
+	border:dashed 2px #000000;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+float: right;
+position: relative;
+height:400px;
+width:60%;
+top:-85px;
+}
+
+#forms{
+	  width: 90%;
+    margin: auto;
+    height:450px;
+    position:relative;
+    
+}
+

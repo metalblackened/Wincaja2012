@@ -1,0 +1,189 @@
+@font-face {
+    font-family: RopaSans-Regular;
+    src: url(Font/RopaSans-Regular.ttf);
+    font-weight:400;
+}
+
+.bluetext{
+    color: #32c6f4;
+}
+
+.blur  
+{  
+    font-size: 1.3em;
+
+margin: 0 auto;
+-webkit-transform-origin: bottom;
+-webkit-transition: 1s;
+-moz-transition: 1s;
+-o-transition: 1s;
+-ms-transition: 1s;
+
+    
+}  
+.blur:hover, .blur:focus  
+{
+-moz-transform: scale(1.1);  
+ -webkit-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ -ms-transform: scale(1.1);
+ text-shadow: 0px 0px 5px #333;
+}
+
+.contacto{
+    width: 90%;
+    margin: auto;
+    height:460px;
+    position:relative;
+   
+
+}
+.contacto p{
+    float: left;
+    font-family:RopaSans-Regular;
+    font-size:18px;
+    position: absolute;
+    margin-left:100px;
+}
+
+
+
+#datos{
+    display: inline-block;
+    width: 250px;
+   position:relative;
+z-index:1;
+    height:400px;
+    margin-left:70%;
+
+}
+
+.datosD{
+    font-family:RopaSans-Regular;
+font-size:18px;
+display: block;
+display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+
+#datosD {
+    width: 700px;
+    margin: 0 auto;
+    min-height: 300px;
+}
+
+.mapa1 , .mapa2{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-top: none;
+    font-size:15px;
+    position:relative;
+    box-shadow: 0 0 15px #888;
+
+
+}
+
+#mapas{
+    width: 100%;
+    
+    top: 20%;
+    height:400px;
+    position:absolute;
+    
+    margin-right:200px;
+    
+    margin-left:1%;
+}
+
+#menuMapas{
+
+    margin-left:40%;
+     font-family:RopaSans-Regular;
+    
+    font-size: 12px;
+    list-style:none;
+     
+}
+
+#menuMapas ul{
+    margin: 80px 0 20px 0;
+    padding: .7em;
+    float: left;
+    list-style: none;
+    height:20px;
+}
+
+#menuMapas li a{
+   float:left;
+    padding: .8em 1.5em;
+    text-decoration: none;
+    color: #555;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    font: bold 1.1em/1 'trebuchet MS', Arial, Helvetica;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff #ccc #999 #eee;
+    background: #f6f6f6;
+    -webkit-transform-origin: bottom;
+-webkit-transition: 1s;
+-moz-transition: 1s;
+-o-transition: 1s;
+-ms-transition: 1s;
+}
+
+#menuMapas li a:hover{
+   outline: 0;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,.2);
+    background: #5FABE6;
+    background: -moz-linear-gradient(#5FABE6, #169FD5);
+    background: -webkit-gradient(linear, left top, left bottom, from(#5FABE6), to(#169FD5));
+    background: -webkit-linear-gradient(#5FABE6, #169FD5);
+    background: -o-linear-gradient(#5FABE6, #169FD5);
+    background: -ms-linear-gradient(#5FABE6, #169FD5);
+    background: linear-gradient(#5FABE6, #169FD5);
+}
+
+.mapa1{
+    width:65%;
+    height:350px;
+}
+
+.mapa2{
+    width:65%;
+    height:350px;
+}
+
+
+#distribuidores{
+ font-family:RopaSans-Regular;
+}
+
+#disheader{
+
+    
+    font-size:20px;
+    margin-left:14%;
+    width:70%;
+
+
+}
+
+#disheader p{
+    text-align:center;
+}
+
+#distribuidores img{
+    width:50%;
+}
+
+#distribuidores aside{
+    float: right;
+    width:40%;
+}

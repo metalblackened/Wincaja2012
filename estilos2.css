@@ -1,0 +1,194 @@
+@font-face {
+    font-family: Droid;
+    src: url(Font/DroidSans.ttf);
+    font-weight:400;
+}
+@font-face {
+    font-family: RopaSans-Regular;
+    src: url(Font/RopaSans-Regular.ttf);
+    font-weight:400;
+}
+
+@media screen {
+    @font-face {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: bold;
+        src: local('PT Sans Bold'), local('PTSans-Bold'), url('http://themes.googleusercontent.com/static/fonts/ptsans/v3/0XxGQsSc1g4rdRdjJKZrNBsxEYwM7FgeyaSgU71cLG0.woff') format('woff');
+    }
+}
+@media screen {
+    @font-face {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: normal;
+        src: local('PT Sans'), local('PTSans-Regular'), url('http://themes.googleusercontent.com/static/fonts/ptsans/v3/LKf8nhXsWg5ybwEGXk8UBQ.woff') format('woff');
+    }
+}
+@media screen {
+    @font-face {
+        font-family: 'PT Sans';
+        font-style: italic;
+        font-weight: normal;
+        src: local('PT Sans Italic'), local('PTSans-Italic'), url('http://themes.googleusercontent.com/static/fonts/ptsans/v3/PIPMHY90P7jtyjpXuZ2cLD8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+    }
+}
+
+
+
+
+
+
+
+.containerp{
+
+}
+
+.contenidoProd{
+    width: 95%;
+    margin: auto;
+   
+    top:65px;
+    
+}
+
+#menuOpciones{ 
+    font-family:RopaSans-Regular;
+    position: relative;
+    margin-left:4%;
+    font-size: 20px;
+    list-style:none;
+  
+    
+     width: 100%;
+    
+}
+#menuOpciones li a{ 
+    display:block; 
+    width:22%; 
+    height:80px; 
+    padding:4px; 
+    margin:1px 0; 
+    text-align:center;
+    margin-top:15px;
+    float:left;
+   background-color:white;
+   background-image:-webkit-gradient(linear,0 0,100% 100%,color-stop(.25,rgba(0,0,0,0.03)),color-stop(.25,transparent),to(transparent)),-webkit-gradient(linear,0 100%,100% 0,color-stop(.25,rgba(0,0,0,0.03)),color-stop(.25,transparent),to(transparent)),-webkit-gradient(linear,0 0,100% 100%,color-stop(.75,transparent),color-stop(.75,rgba(0,0,0,0.03))),-webkit-gradient(linear,0 100%,100% 0,color-stop(.75,transparent),color-stop(.75,rgba(0,0,0,0.03)))!important;
+   background-image:-webkit-linear-gradient(45deg,rgba(0,0,0,0.03) 25%,transparent 25%,transparent),-webkit-linear-gradient(-45deg,rgba(0,0,0,0.03) 25%,transparent 25%,transparent),-webkit-linear-gradient(45deg,transparent 75%,rgba(0,0,0,0.03) 75%),-webkit-linear-gradient(-45deg,transparent 75%,rgba(0,0,0,0.03) 75%)!important;
+   background-image:-ms-linear-gradient(45deg,rgba(0,0,0,0.03) 25%,transparent 25%,transparent),-ms-linear-gradient(-45deg,rgba(0,0,0,0.03) 25%,transparent 25%,transparent),-ms-linear-gradient(45deg,transparent 75%,rgba(0,0,0,0.03) 75%),-ms-linear-gradient(-45deg,transparent 75%,rgba(0,0,0,0.03) 75%)!important;
+   -webkit-background-size:3px 3px;-ms-background-size:3px 3px;
+   -webkit-box-shadow:1px 1px 10px #ccc;
+   -moz-box-shadow:1px 1px 10px #ccc;
+   -ms-box-shadow:1px 1px 10px #ccc;
+   -o-box-shadow:1px 1px 10px #ccc;
+   box-shadow:1px 1px 10px #ccc;
+    color:#444; 
+    text-decoration:none;
+    -webkit-transition-property:width, padding, background-color, color;
+    -webkit-transition-duration:.2s; 
+    -webkit-transition-timing-function:ease, ease, linear, linear; 
+
+    -moz-transition-property:width, padding, background-color, color;
+    -moz-transition-duration:.2s; 
+    -moz-transition-timing-function:ease, ease, linear, linear; 
+
+    -o-transition-property:width, padding, background-color, color;
+    -o-transition-duration:.2s; 
+    -o-transition-timing-function:ease, ease, linear, linear; 
+
+     -ms-transition-property:width, padding, background-color, color;
+    -ms-transition-duration:.2s; 
+    -ms-transition-timing-function:ease, ease, linear, linear; 
+    box-shadow: 0 0 15px #888;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border-top: none;
+    text-shadow: 0px 2px 3px #555;
+    behavior: url(js/PIE/PIE.htc);
+}
+#menuOpciones li a:hover{ 
+    width:23%; 
+    padding:10px; 
+    background-color:#29B8E5; 
+    color:#f6f6f6; 
+}
+
+#menuOpciones h3{
+    position: relative;
+    top:30%;
+}
+
+.productos{
+
+  margin:auto;
+    
+
+  background-color:#e5e5e5;
+    width:90%; 
+        position:relative;
+   background-color:white!important;
+   background-image:-webkit-gradient(linear,0 0,100% 100%,color-stop(.25,rgba(0,0,0,0.03)),color-stop(.25,transparent),to(transparent)),-webkit-gradient(linear,0 100%,100% 0,color-stop(.25,rgba(0,0,0,0.03)),color-stop(.25,transparent),to(transparent)),-webkit-gradient(linear,0 0,100% 100%,color-stop(.75,transparent),color-stop(.75,rgba(0,0,0,0.03))),-webkit-gradient(linear,0 100%,100% 0,color-stop(.75,transparent),color-stop(.75,rgba(0,0,0,0.03)))!important;
+   background-image:-webkit-linear-gradient(45deg,rgba(0,0,0,0.03) 25%,transparent 25%,transparent),-webkit-linear-gradient(-45deg,rgba(0,0,0,0.03) 25%,transparent 25%,transparent),-webkit-linear-gradient(45deg,transparent 75%,rgba(0,0,0,0.03) 75%),-webkit-linear-gradient(-45deg,transparent 75%,rgba(0,0,0,0.03) 75%)!important;
+   background-image:-ms-linear-gradient(45deg,rgba(0,0,0,0.03) 25%,transparent 25%,transparent),-ms-linear-gradient(-45deg,rgba(0,0,0,0.03) 25%,transparent 25%,transparent),-ms-linear-gradient(45deg,transparent 75%,rgba(0,0,0,0.03) 75%),-ms-linear-gradient(-45deg,transparent 75%,rgba(0,0,0,0.03) 75%)!important;
+   -webkit-background-size:3px 3px;-ms-background-size:3px 3px;
+  
+
+   
+    padding:10px; 
+    font-family:RopaSans-Regular;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-top: none;
+    font-size:18px;
+    
+
+  top: 20px;
+      overflow: auto;
+    line-height:1.25;
+
+}
+
+
+#pGeneral{
+
+   width:94%;
+    font-family:RopaSans-Regular;
+    font-size:18px;
+    position: relative;
+    margin-left:50px;
+}
+
+/*tabs*/
+
+#mytab-content{
+  
+}
+
+.lista1{
+    margin-left:32%;
+    list-style-type:circle;
+
+}
+
+.lista2{
+    width:60%;
+    margin-left:5%;
+    text-align:justify;
+}
+
+.lista3{
+    margin-left:5%;
+    text-align:justify;
+}
+
+.lista4{
+    width:60%;
+    margin-left:5%;
+    text-align:justify;
+}
+
+.p, .p2, .p3, .p4{
+ 
+}

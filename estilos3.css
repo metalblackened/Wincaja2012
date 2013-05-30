@@ -1,0 +1,256 @@
+@font-face {
+    font-family: RopaSans-Regular;
+    src: url(Font/RopaSans-Regular.ttf);
+    font-weight:400;
+}
+
+.bluetext {color: #32c6f4;}
+
+#formulario{
+padding-top: 5%;
+text-align:right;
+
+height:400px;
+width:30%;
+margin-left:25px;
+float: left;
+position:absolute;
+font-family:RopaSans-Regular;
+font-size:25px;
+letter-spacing:.5px;
+line-height:25px;
+
+
+}
+
+#formularioAside{
+	
+float: right;
+position: relative;
+height:400px;
+width:60%;
+top:30px;
+font-family:RopaSans-Regular;
+font-size:16px;
+}
+
+#forms{
+	  width: 90%;
+    margin: auto;
+    height:550px;
+    position:relative;
+    
+}
+
+
+ @media screen and (-webkit-min-device-pixel-ratio:0) {
+
+#ex5 img {
+  
+  opacity: 0.8;
+  
+  
+  /*Transition*/
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  
+  /*Reflection*/
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
+}
+
+
+#ex5 img:hover {  
+   opacity: 1;
+   
+   /*Reflection*/
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
+ 
+   /*Glow*/
+  -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+
+  
+}
+}
+
+#thankyou{
+  float: right;
+position: relative;
+
+width:70%;
+top:-80px;
+}
+
+#thankyou h1{
+        font-size:46px;
+    }
+
+#imagenthank{
+
+  list-style:none;
+  margin-left:20%;
+}
+
+
+
+.faq{
+
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  
+  font-size:16px;
+
+  margin: 0 auto;
+
+height: 180px;
+background: #29B8E5;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI5YjhlNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNmY2ZjYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, #29B8E5 0%, #F6F6F6 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#29B8E5), color-stop(100%,#F6F6F6));
+background: -webkit-linear-gradient(top, #29B8E5 0%,#F6F6F6 100%);
+background: -o-linear-gradient(top, #29B8E5 0%,#F6F6F6 100%);
+background: -ms-linear-gradient(top, #29B8E5 0%,#F6F6F6 100%);
+background: linear-gradient(top, #29B8E5 0%,#F6F6F6 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29b8e5', endColorstr='#f6f6f6',GradientType=0 );
+background-repeat: no-repeat;
+background-color: #F6F6F6;
+}
+
+.faq aside{
+     
+float: left;
+width:22%;
+position: fixed;
+-moz-box-shadow: 0px 0px 25px #777;
+-webkit-box-shadow: 0px 0px 25px #777;
+box-shadow: 0px 0px 25px #777;
+
+height:100%;
+  }
+
+.faq section{
+  width:95%;
+  margin:auto;
+ 
+ 
+
+}
+
+#manual , #instalacionm{
+  margin-left:26%;
+  position: fixed;
+  font-family:RopaSans-Regular;
+font-size:20px;
+}
+
+#manual article{
+  position: relative;
+  top:180px;
+  width:80%;
+  margin:auto;
+ 
+}
+
+#instalacionm article{
+ 
+  position: relative;
+  
+  width:100%;
+  margin:auto;
+  overflow: auto;
+  height:670px;
+
+}
+
+.imginstall{
+  
+  padding: 8px;
+-moz-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAOVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///+8yHYvAAAAEnRSTlMAAgEDBAUJBwYzCw0UChARDghnBteEAAAAhElEQVR4XnWRSxJDIQgEEx1Axd/L/Q8bKCuuyOzsohHxdZLS25LSOV2ULQdflgEiIDu9KqiIFILXXpeEx2ChXwdnKNxUGxc4dZbNfXjPufkp5H0Nwtymq/dltUIweNy9qmXt08EgydDZ6+dT+9Qh9AeGenhROFI0fPjMaCHx6uIlh9/xBSJuB3l0A/6JAAAAAElFTkSuQmCC) 9 / 9px stretch;
+-ms-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAOVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///+8yHYvAAAAEnRSTlMAAgEDBAUJBwYzCw0UChARDghnBteEAAAAhElEQVR4XnWRSxJDIQgEEx1Axd/L/Q8bKCuuyOzsohHxdZLS25LSOV2ULQdflgEiIDu9KqiIFILXXpeEx2ChXwdnKNxUGxc4dZbNfXjPufkp5H0Nwtymq/dltUIweNy9qmXt08EgydDZ6+dT+9Qh9AeGenhROFI0fPjMaCHx6uIlh9/xBSJuB3l0A/6JAAAAAElFTkSuQmCC) 9 / 9px stretch;
+-o-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAOVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///+8yHYvAAAAEnRSTlMAAgEDBAUJBwYzCw0UChARDghnBteEAAAAhElEQVR4XnWRSxJDIQgEEx1Axd/L/Q8bKCuuyOzsohHxdZLS25LSOV2ULQdflgEiIDu9KqiIFILXXpeEx2ChXwdnKNxUGxc4dZbNfXjPufkp5H0Nwtymq/dltUIweNy9qmXt08EgydDZ6+dT+9Qh9AeGenhROFI0fPjMaCHx6uIlh9/xBSJuB3l0A/6JAAAAAElFTkSuQmCC) 9 / 9px stretch;
+border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAOVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///+8yHYvAAAAEnRSTlMAAgEDBAUJBwYzCw0UChARDghnBteEAAAAhElEQVR4XnWRSxJDIQgEEx1Axd/L/Q8bKCuuyOzsohHxdZLS25LSOV2ULQdflgEiIDu9KqiIFILXXpeEx2ChXwdnKNxUGxc4dZbNfXjPufkp5H0Nwtymq/dltUIweNy9qmXt08EgydDZ6+dT+9Qh9AeGenhROFI0fPjMaCHx6uIlh9/xBSJuB3l0A/6JAAAAAElFTkSuQmCC) 9 / 9px stretch;
+-webkit-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAOVBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///+8yHYvAAAAEnRSTlMAAgEDBAUJBwYzCw0UChARDghnBteEAAAAhElEQVR4XnWRSxJDIQgEEx1Axd/L/Q8bKCuuyOzsohHxdZLS25LSOV2ULQdflgEiIDu9KqiIFILXXpeEx2ChXwdnKNxUGxc4dZbNfXjPufkp5H0Nwtymq/dltUIweNy9qmXt08EgydDZ6+dT+9Qh9AeGenhROFI0fPjMaCHx6uIlh9/xBSJuB3l0A/6JAAAAAElFTkSuQmCC) 9 / 9px stretch;
+border-width: 9px;
+}
+
+
+
+.logofaq{
+
+position: relative;
+top:4%;
+width: 85%;
+margin-left:4%;
+border-radius: .9em;
+}
+
+.faq nav a{
+  text-decoration:none;
+  color: black;
+  margin: auto;
+}
+
+.faq nav a:hover{
+  color: #1C5AC4;
+}
+
+#descargas ,#instalacion{
+  background: #29B8E5;
+text-shadow: 0px -1px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+list-style: none;
+margin: auto;
+width:80%;
+padding: 8px 13px 8px 13px;
+
+}
+
+#descargas a , #instalacion a{
+  color: white;
+}
+
+#tutorial{
+  background: #29B8E5;
+
+-moz-border-radius-topleft: 4px;
+-moz-border-radius-topright:4px;
+-moz-border-radius-bottomleft:0px;
+-moz-border-radius-bottomright:0px;
+-webkit-border-top-left-radius:4px;
+-webkit-border-top-right-radius:4px;
+-webkit-border-bottom-left-radius:4px;
+-webkit-border-bottom-right-radius:0px;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+border-bottom-left-radius:0px;
+border-bottom-right-radius:0px;
+list-style: none;
+padding: 8px 13px 8px 13px;
+  margin-left: 965px;
+  font-size:20px;
+  width:100px;
+  height:40px;
+-webkit-transform: rotate(90deg) ;
+-moz-transform: rotate(90deg) ;
+-o-transform: rotate(90deg) ;
+text-align:center;
+ color: white;
+  top: 350px;
+
+position: fixed;
+  
+ 
+
+-webkit-transition: 1s;
+-moz-transition: 1s;
+-o-transition: 1s;
+-ms-transition: 1s;
+}
+
+#tutorial:hover{
+  background:#CD0000;
+}
+
+
+

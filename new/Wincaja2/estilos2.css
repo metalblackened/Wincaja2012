@@ -1,0 +1,107 @@
+@font-face {
+    font-family: Droid;
+    src: url(Font/DroidSans.ttf);
+    font-weight:400;
+}
+
+@media screen {
+    @font-face {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: bold;
+        src: local('PT Sans Bold'), local('PTSans-Bold'), url('http://themes.googleusercontent.com/static/fonts/ptsans/v3/0XxGQsSc1g4rdRdjJKZrNBsxEYwM7FgeyaSgU71cLG0.woff') format('woff');
+    }
+}
+@media screen {
+    @font-face {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: normal;
+        src: local('PT Sans'), local('PTSans-Regular'), url('http://themes.googleusercontent.com/static/fonts/ptsans/v3/LKf8nhXsWg5ybwEGXk8UBQ.woff') format('woff');
+    }
+}
+@media screen {
+    @font-face {
+        font-family: 'PT Sans';
+        font-style: italic;
+        font-weight: normal;
+        src: local('PT Sans Italic'), local('PTSans-Italic'), url('http://themes.googleusercontent.com/static/fonts/ptsans/v3/PIPMHY90P7jtyjpXuZ2cLD8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+    }
+}
+
+
+h3{
+    font-family: DroidSans  ;
+    height:30px;
+}
+
+
+
+.containerp{
+
+}
+
+.contenidoProd{
+    width: 90%;
+    margin: auto;
+    height:450px;
+    position:relative;
+
+}
+
+#menuOpciones{ 
+    font-family: DroidSans, Helvetica, Arial;
+    position: absolute;
+    font-size: 20px;
+    list-style:none;
+     
+    
+    
+}
+#menuOpciones li a{ 
+    display:block; 
+    width:200px; 
+    height:75px; 
+    padding:4px; 
+    margin:1px 0; 
+    text-align:center;
+    
+    background:#D0CFD1; 
+    color:#444; 
+    text-decoration:none;
+    -webkit-transition-property:width, padding, background-color, color;
+    -webkit-transition-duration:.2s; 
+    -webkit-transition-timing-function:ease, ease, linear, linear; 
+    box-shadow: 0 0 15px #888;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-top: none;
+    text-shadow: 0px 2px 3px #555;
+}
+#menuOpciones li a:hover{ 
+    width:210px; 
+    padding:10px; 
+    background-color:#0387DC; 
+    color:#fff; 
+}
+
+.productos{
+
+    margin-left:27%;
+    background-color:#e5e5e5;
+    width:600px; 
+    height:323px;
+    padding:10px; 
+    font-family: PT Sans, Helvetica, Arial, sans-serif;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-top: none;
+
+    position:relative;
+    box-shadow: 0 0 15px #888;
+
+
+}
+

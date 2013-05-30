@@ -1,0 +1,8 @@
+
+#formulario{
+border:dashed 3px #000000;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+color:white;
+}
